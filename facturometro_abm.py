@@ -6,9 +6,10 @@ def add_user(user):
 	"""
 	Agrega un usuario a la lista
 
-	>>> add_user('a')	
+	>>> user_list = []
+	... add_user('a')	
 	user_list = ['a']
-
+	>>>
 	"""
 
 	user_list.append(user)
@@ -18,9 +19,10 @@ def mod_user(item_find, item_replace):
 	"""
 	Modifica el item_find por el item_replace en una lista
 
-	>>>mod_user('a','c')	
-	user_list=['c']
-	
+	>>> user_list = ['a','b']
+	... mod_user('a','c')	
+	user_list = ['c','b']
+	>>>	
 	"""
 
 	
@@ -37,9 +39,10 @@ def remove_user(user):
 	"""
 	Borra de la lista el usuario
 
-	>>> remove_user('a')	
-	user_list=[]
-
+	>>> user_list = ['a','b']
+	... remove_user('a')	
+	user_list = [b']
+	>>>	
 
 	"""
 	
