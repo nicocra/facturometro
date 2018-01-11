@@ -8,7 +8,8 @@ def add_user(user):
 
 	>>> user_list = []
 	... add_user('a')	
-	user_list = ['a']
+	... return user_list 
+	['a']
 	>>>
 	"""
 
@@ -21,7 +22,8 @@ def mod_user(item_find, item_replace):
 
 	>>> user_list = ['a','b']
 	... mod_user('a','c')	
-	user_list = ['c','b']
+	... return user_list 
+	['c','b']
 	>>>	
 	"""
 
@@ -41,7 +43,8 @@ def remove_user(user):
 
 	>>> user_list = ['a','b']
 	... remove_user('a')	
-	user_list = [b']
+	... return user_list 
+	['b']
 	>>>	
 
 	"""
