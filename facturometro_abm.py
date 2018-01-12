@@ -1,6 +1,16 @@
 
 user_list = []
 
+def sum(a,b):
+	"""
+	suma a y b
+
+	>>> sum(3,8)
+	11
+	>>>
+	"""
+	return a+b
+
 def add_user(user):
 
 	"""
