@@ -4,6 +4,7 @@ user_list = []
 def sum(a,b):
 	"""
 	suma a y b
+	Para probar que anda doctest, y anda ¯\_(ツ)_/¯
 
 	>>> sum(3,8)
 	11
@@ -16,14 +17,13 @@ def add_user(user):
 	"""
 	Agrega un usuario a la lista
 
-	>>> user_list = []
-	... add_user('a')	
-	... return user_list 
+	>>> add_user('a')
+	... user_list	
 	['a']
 	>>>
 	"""
 
-	user_list.append(user)
+	return user_list.append(user)
 
 def mod_user(item_find, item_replace):
 
@@ -32,7 +32,7 @@ def mod_user(item_find, item_replace):
 
 	>>> user_list = ['a','b']
 	... mod_user('a','c')	
-	... return user_list 
+	... user_list 
 	['c','b']
 	>>>	
 	"""
@@ -53,7 +53,7 @@ def remove_user(user):
 
 	>>> user_list = ['a','b']
 	... remove_user('a')	
-	... return user_list 
+	... user_list 
 	['b']
 	>>>	
 
