@@ -1,3 +1,19 @@
+class db_users():
+
+	def __init__(self, user_name)
+		self.user_name = user_name
+
+
+
+
+
+
+
+
+
+
+
+
 
 user_list = []
 
@@ -22,7 +38,8 @@ def add_user(user):
 	>>>
 	"""
 
-	return user_list.append(user)
+	user_list.append(user)
+	return user_list
 
 
 def mod_user(item_find, item_replace):
